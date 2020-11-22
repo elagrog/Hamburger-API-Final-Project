@@ -1,5 +1,6 @@
-## Part 1
+
 Example request:
+```JSON
 Accept: application/json
 Content-Type: application/json
 POST/orders
@@ -34,7 +35,8 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	"type":"7-Up",
      	"size":"small",
      	"ice":"yes"
-  	}
+  	} 
+```
 Example response
 200 OK
 
@@ -43,6 +45,7 @@ Accept: application/json
 Content-Type: application/json
 POST/orders
 
+```JSON
 
 curl -H "Content-Type: application/json" -X POST -d'{
    "mealType":"lunch",
@@ -75,7 +78,7 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	"type":"7-Up",
      	"size":"small",
      	"ice":"yes"
-
+```
 Example response
 400 Bad request. 
 
