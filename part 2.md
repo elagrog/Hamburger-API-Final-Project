@@ -18,7 +18,6 @@ item1	     |  int	      | This specifies the number of items ordered. The defaul
 itemOrdered | 	string  | This specifies the item ordered.      |  burgermeal   | Mandatory	              
 
 
------- | ----------------   |
 ## POST/lunch/burgerMeal/burgerProperties
 
 Property  |	Data Types |	Description | Default  |  Mandatory/Optional  
