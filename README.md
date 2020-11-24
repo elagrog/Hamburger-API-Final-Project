@@ -5,9 +5,8 @@ An API for a hamburger
 Hamburger API is for ordering a hamburger at a restaurant.
 
 ## Types of orders:
-Orders made for takeout.
-
-Orders made for eating in.
+*Orders made for takeout.
+*Orders made for eating in.
 
 ## Purpose 
 *	The cook needs to be able to view all the orders placed in the order of arrival.
