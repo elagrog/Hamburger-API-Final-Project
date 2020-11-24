@@ -19,7 +19,7 @@ itemOrdered | 	string  | This specifies the item ordered.      |  burgermeal   |
 
 
 ------ | ----------------   |
-## POST/lunch/burgerMeal/burgerProperties|
+## POST/lunch/burgerMeal/burgerProperties
 
 Property  |	Data Types |	Description | Default  |  Mandatory/Optional  
 ----------- |----------|--------------  |--------------------|---------------------------------------------------------------------- 
