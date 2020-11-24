@@ -3,7 +3,7 @@
 
 Method |	syntax            |
 ------ | ---------------- |
-GET  	| GET/products/Name
+GET  	| GET/products/properties
 
 ## Description 
 Parameters
