@@ -1,6 +1,6 @@
 
 Example request:
-```JSON
+``` JSON
 Accept: application/json
 Content-Type: application/json
 POST/orders
@@ -45,7 +45,7 @@ Accept: application/json
 Content-Type: application/json
 POST/orders
 
-```JSON
+``` JSON
 
 curl -H "Content-Type: application/json" -X POST -d'{
    "mealType":"lunch",
