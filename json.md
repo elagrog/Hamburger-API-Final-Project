@@ -13,7 +13,7 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	"pattyQty":2,
      	"pattyWeightG":300,
      	"pattyCook":"medium",
-     	"bunType":"regular",
+     	"bunType":"wholewheat",
      	"condiment1":"ketchupandmustard",
      	"condiment2":"guacamole",
      	"topping1":"lettuceandtomatoes",
@@ -23,7 +23,7 @@ curl -H "Content-Type: application/json" -X POST -d'{
   	},
   	"sides":{
      	"side1":{
-        	"type":"potatochips",
+        	"type":"onion rings",
         	"size":"large"
      	},
      	"side2":{
