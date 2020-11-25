@@ -13,5 +13,7 @@ Hamburger API is for ordering a hamburger at a restaurant.
 * The customer needs to be able to place an order
 * The customer needs to be able to know the order status
 
-![image](https://github.com/elagrog/hamburger_api-final-project/issues/15#issue-749961778.png)
+
+
+![image](https://github.com/elagrog/hamburger_api-final-project/flowchart.png)
 
