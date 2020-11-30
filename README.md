@@ -1,6 +1,6 @@
 # Hamburger API Final Project 
 
-This API documentation is for ordering a hamburger in a diner. It is intended for developers to know how to use this API so that they can develop one and provide a proof of concept to the diner owners. It was based on snippets of code, provided by the SME.
+This [API documentation](Documentation.md) is for ordering a hamburger in a diner. It is intended for developers to know how to use this API so that they can develop one and provide a proof of concept to the diner owners. It was based on snippets of code, provided by the SME.
 
 This API includes two calls: 
 * GET used to get commands from the server. In this case, it will be to get the bill
@@ -12,7 +12,8 @@ Another API needs to be created for the payment system.
 * The customer needs to be able to place an order
 * The customer needs to be able to know the order status
 
-Link to the documentation: [GitHub](Documentation.md)
+
+ 
 
 ## Flow Chart for Ordering the Default Burger Meal
 
