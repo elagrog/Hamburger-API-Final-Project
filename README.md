@@ -15,7 +15,6 @@ Hamburger API is for ordering a hamburger at a restaurant.
 
 ## Flow Chart for the Default Hamburger 
 
-(![flow chart hamburger API](https://user-images.githubusercontent.com/70954489/100612601-eb50b280-331b-11eb-92e1-f1cdb0f06fe3.png)
-
+![flow chart hamburger API](https://user-images.githubusercontent.com/70954489/100614368-b6922a80-331e-11eb-8c95-36295dd5069e.png)
 
 
