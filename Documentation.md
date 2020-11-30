@@ -1,5 +1,5 @@
 # Part 1: JSON for Burgermeal
-## Example request:
+## Example POST request:
 ``` JSON
 Accept: application/json
 Content-Type: application/json
@@ -40,7 +40,7 @@ curl -H "Content-Type: application/json" -X POST -d'{
 ## Example response
 200 OK
 
-## Example request:
+## Example POST request:
 Accept: application/json
 Content-Type: application/json
 POST/orders
@@ -82,7 +82,7 @@ curl -H "Content-Type: application/json" -X POST -d'{
 ## Example response
 400 Bad request. 
 
-# Part 2 Documentation of the GET and POst requests 
+# Part 2 Documentation of the GET and POST requests 
 
 
 ## GET/TableNO 
