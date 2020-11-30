@@ -13,7 +13,9 @@ Hamburger API is for ordering a hamburger at a restaurant.
 * The customer needs to be able to place an order
 * The customer needs to be able to know the order status
 
-![Flowchart](![flow chart hamburger API](https://user-images.githubusercontent.com/70954489/100612601-eb50b280-331b-11eb-92e1-f1cdb0f06fe3.png)
+## Flow Chart for the Default Hamburger 
+
+(![flow chart hamburger API](https://user-images.githubusercontent.com/70954489/100612601-eb50b280-331b-11eb-92e1-f1cdb0f06fe3.png)
 
 
 
