@@ -12,6 +12,8 @@ Another API needs to be created for the payment system.
 * The customer needs to be able to place an order
 * The customer needs to be able to know the order status
 
+Link to the documentation: [GitHub](Documentation.md)
+
 ## Flow Chart for Ordering the Default Burger Meal
 
 ![flow chart hamburger API](https://user-images.githubusercontent.com/70954489/100614368-b6922a80-331e-11eb-8c95-36295dd5069e.png)
