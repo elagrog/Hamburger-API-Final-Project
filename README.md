@@ -17,6 +17,6 @@ Another API needs to be created for the payment system.
 
 ## Flow Chart for Ordering the Default Burger Meal
 
-![flow chart hamburger API](https://user-images.githubusercontent.com/70954489/100614368-b6922a80-331e-11eb-8c95-36295dd5069e.png)
+![flow chart hamburger API]()
 
 
