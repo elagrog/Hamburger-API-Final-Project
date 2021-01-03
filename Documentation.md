@@ -21,20 +21,18 @@ curl -H "Content-Type: application/json" -X POST -d'{
       "topping3:"onion",
       }
    
-  	"sides":{
-     	"side1":{
+  	"sides1":
         	"type":"onion rings",
-        	"size":"large"
+        	"size":"large",
      	},
-     	"side2":{
+    	"side2":{
         	"type":"coleslaw",
-        	"size":"small"
+        	"size":"small",
      	}
-  	},
   	"drink":{
      	"type":"7-Up",
      	"size":"small",
-     	"ice":"yes"
+     	"ice":"yes",
   	} 
 ```
 ## Example response
@@ -63,7 +61,7 @@ curl -H "Content-Type: application/json" -X POST -d'{
   	"sides":{
      	"side1":{
         	"type":"potatochips",
-        	"size":"large"
+        	"size":"large",
      	},
      	"side2":{
         	"type":"coleslaw",
@@ -73,7 +71,7 @@ curl -H "Content-Type: application/json" -X POST -d'{
   	"drink":{
      	"type":"7-Up",
      	"size":"small",
-     	"ice":"yes"
+     	"ice":"yes",
 ```
 ## Example response
 400 Bad request. 
