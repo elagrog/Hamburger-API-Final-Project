@@ -1,38 +1,43 @@
 # Part 1: JSON for Burgermeal
-## Example POST request:
-Accept: application/json
-Content-Type: application/json
-POST/orders
+## Example POST request
+## Accept: application/json Content-Type: application/json
+## POST/orders   
 curl -H "Content-Type: application/json" -X POST -d'{
-   "mealType":"lunch",
+
+   ```json
+   
+   
+   "mealType": "lunch",
    "mealCat":
-  	"main":"burgerMeal", }
-  	"burger":{
+  	"main": "burgerMeal", 
+  	"burger": {
      	"pattyType:" "veggie",
      	"pattyQty:" 2,
      	"pattyWeightG:" 300,
      	"pattyCook":" medium",
-     	"bunType":" wholewheat",
+     	"bunType": "wholewheat",
      	"condiment1:" "ketchupandmustard",
       "condiment:" "none",
      	"topping1:" "Lettuce",
         "topping2:"  "Tomato",
-        "topping3:"  "onion",
-      }
+        "topping3:"  "onion" 
+        },
 
-  	"sides1:"
+"sides1:" {
         	"type:" "onion rings",
         	"size:" "large",
      	},
     	"side2:" {
         	"type:" "coleslaw",
         	"size:" "Small",
-     	}
+     	},
   	"drink":{
      	"type":"7-Up",
      	"size":"small",
      	"ice":"yes",
   	} 
+   ```json
+   
    
 ## Example response
 200 OK
@@ -42,7 +47,7 @@ Accept: application/json
 Content-Type: application/json
 POST/orders
 
-```JSON
+```
 
 curl -H "Content-Type: application/json" -X POST -d'{
    "mealType":"lunch",
