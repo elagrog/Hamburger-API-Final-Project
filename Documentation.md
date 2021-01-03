@@ -14,13 +14,8 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	"pattyWeightG":300,
      	"pattyCook":"medium",
      	"bunType":"wholewheat",
-     	"condiment1":"ketchupandmustard",
-     	"condiment2":"guacamole",
-     	"topping1":"lettuceandtomatoes",
-     	"topping2":"none",
-     	"topping3":"onions",
-     	"topping4":"jalapenos"
-  	},
+     	"condiment":"ketchupandmustard"
+     	"topping":"lettuceandtomatoes 	},
   	"sides":{
      	"side1":{
         	"type":"onion rings",
@@ -57,12 +52,8 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	"pattyWeightG":300,
      	"pattyCook":"medium",
      	"bunType":"regular",
-     	"condiment1":"ketchupandmustard",
-     	"condiment2":"guacamole",
-     	"topping1":"lettuceandtomatoes",
-     	"topping2":"none",
-     	"topping3":"onions",
-     	"topping4":"jalapenos"
+     	"condiment":"ketchupandmustard",
+     	"topping":"lettuceandtomatoes",
   	},
   	"sides":{
      	"side1":{
@@ -113,12 +104,8 @@ pattyQty	 | int	     |Number of patties per order. Acceptable values are 1 to 2.
 pattyWeight| 	int      |Specifies weight of burger. Choice is 300 grams or 400 grams.  | 300           |	Mandatory	         
 pattyCook  |	string	 |Specifies how long to cook the burger. Can be medium-rare, medium, or well done.|  MR	 | Mandatory	
 bunType	   |  string   |Specifies the type of bun. Can be regular or whole wheat. |  wholeWheat |	Mandatory	
-condiment1	| string   |Specifies condiment. Choices are ketchup or mustard, ketchup and mustard, or none. |  ketchup	| Optional 
-condiment2	| string   |Specifies condiment. Choices are special sauce, salsa, guacamole, or none.  |	special sauce   |	Optional 
-topping1	|string |	Specifies topping. Choices are lettuce, tomato, lettuce and tomato, or none. | lettuce	 | Optional 
-topping2	|string |	Specifies topping. Choice is pickles or none.| pickles  | Optional  
-topping3 |	string | Specifies topping. Choice is onions or none.| none | Optional 
-topping4 |	string |	Specifies topping. Choice is jalapenos or none.| none |	Optional 	
+condiment	| string   |Specifies condiment. Choices are ketchup or mustard, ketchup and mustard, or none. |  ketchup	| Optional 
+topping	|string |	Specifies topping. Choices are lettuce, tomato, lettuce and tomato, or none. | lettuce	 | Optional 
 side1	| string |  Specifies side 1. Choice is French fries, onion rings, or none  | French fries | Mandatory
 size1 | 	string | Specifies size of side. Choice is large or small.   |  small   |  Mandatory 
 side2	|string | Specifies side 2. Choice is salad, coleslaw, or none.   |	salad  | 	Mandatory 
