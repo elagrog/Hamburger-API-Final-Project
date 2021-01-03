@@ -1,6 +1,6 @@
 # Part 1: JSON for Burgermeal
-
 ## Example POST request:
+'''JSON
 Accept: application/json
 Content-Type: application/json
 POST/orders
