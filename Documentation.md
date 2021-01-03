@@ -6,7 +6,7 @@ POST/orders
 curl -H "Content-Type: application/json" -X POST -d'{
    "mealType":"lunch",
    "mealCat":{
-  	"main":"burgerMeal",
+  	"main":"burgerMeal", }
   	"burger":{
      	"pattyType:" "veggie",
      	"pattyQty:" 2,
