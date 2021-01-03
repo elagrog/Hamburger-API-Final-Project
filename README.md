@@ -17,6 +17,6 @@ Another API needs to be created for the payment system.
 
 ## Flow Chart for Ordering the Default Burger Meal
 
-![hamburger flow chart]()
+
 
 
