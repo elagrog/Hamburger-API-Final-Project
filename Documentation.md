@@ -6,10 +6,10 @@ curl -H "Content-Type: application/json" -X POST -d'{
 
    ```json
    
-   
+  { 
    "mealType": "lunch",
    "mealCat":
-  	"main": "burgerMeal", 
+  	"main": "burgerMeal"
   	"burger": {
      	"pattyType:" "veggie",
      	"pattyQty:" 2,
@@ -21,17 +21,20 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	"topping1:" "Lettuce",
         "topping2:"  "Tomato",
         "topping3:"  "onion" 
-        },
-
-"sides1:" {
-        	"type:" "onion rings",
-        	"size:" "large",
+        }
+{
+"sides1:" [
+{
+        	"type": "onion rings",
+        	"size": "large",
      	},
-    	"side2:" {
-        	"type:" "coleslaw",
-        	"size:" "Small",
+    	"side2:": [
+      {
+        	"type": coleslaw",
+        	"size": Small",
      	},
-  	"drink":{
+  	"drink": [
+   {
      	"type":"7-Up",
      	"size":"small",
      	"ice":"yes",
@@ -43,11 +46,11 @@ curl -H "Content-Type: application/json" -X POST -d'{
 200 OK
 
 ## Example POST request:
-Accept: application/json
-Content-Type: application/json
-POST/orders
+## Accept: application/json
+## Content-Type: application/json
+## POST/orders
 
-```
+```json
 
 curl -H "Content-Type: application/json" -X POST -d'{
    "mealType":"lunch",
@@ -105,12 +108,12 @@ itemOrdered | 	string  | This specifies the item ordered.      |  burgermeal   |
 Property  |	Data Types |	Description | Default  |  Mandatory/Optional  
 ----------- |----------|--------------  |--------------------|---------------------------------------------------------------------- 
 lunch	      | string   |Specifies type of meal. This can be ordered between 12:00 and 2:00 |lunch    |	Mandatory	     
-mealCat	   | string	   |Specifies category of meal. The choice is burger meal, chicken meal, or vegetarian special. | burgerMeal	   | Mandatory          
+mealCat	   | string	  |Specifies category of meal. The choice is burger meal, chicken meal, or vegetarian special. | burgerMeal	   | Mandatory          
 pattyType  | string    |Specifies the type of burger. Can be beef or veggie.   |  beef	        | Mandatory	         
 pattyQty	 | int	     |Number of patties per order. Acceptable values are 1 to 2. |  1	            | Mandatory          	
-pattyWeight| 	int      |Specifies weight of burger. Choice is 300 grams or 400 grams.  | 300           |	Mandatory	         
-pattyCook  |	string	 |Specifies how long to cook the burger. Can be medium-rare, medium, or well done.|  MR	 | Mandatory	
-bunType	   |  string   |Specifies the type of bun. Can be regular or whole wheat. |  wholeWheat |	Mandatory	
+pattyWeight| 	int     |Specifies weight of burger. Choice is 300 grams or 400 grams.  | 300           |	Mandatory	         
+pattyCook  |	string  |Specifies how long to cook the burger. Can be medium-rare, medium, or well done.|  MR	 | Mandatory	
+bunType	   |  string  |Specifies the type of bun. Can be regular or whole wheat. |  wholeWheat |	Mandatory	
 condiment_type	| string   |Specifies type of condiment. Choices are ketchup or mustard, ketchup and mustard, or none. |  ketchup	| Optional 
 topping_type |string | Specifies the type of topping. Choices are lettuce, tomato, onion, or none. | None	 | Optional 
 side1	| string |  Specifies side 1. Choice is French fries, onion rings, or none  | French fries | Mandatory
