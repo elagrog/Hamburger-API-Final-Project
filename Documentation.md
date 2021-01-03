@@ -1,6 +1,5 @@
 # Part 1: JSON for Burgermeal
 ## Example POST request:
-``` JSON
 Accept: application/json
 Content-Type: application/json
 POST/orders
@@ -16,25 +15,25 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	"bunType":"wholewheat",
      	"condiment1":"ketchupandmustard",
       "condiment2":"none",
-     	"topping1:"lettuce",
-      "topping2:"tomato",
-      "topping3:"onion",
+     	"topping1:" "Lettuce",
+        "topping2:"  "Tomato",
+        "topping3:"  "onion",
       }
-   
-  	"sides1":
-        	"type":"onion rings",
-        	"size":"large",
+
+  	"sides1:"
+        	"type:" "onion rings",
+        	"size:" "large",
      	},
-    	"side2":{
-        	"type":"coleslaw",
-        	"size":"small",
+    	"side2:" {
+        	"type:" "coleslaw",
+        	"size:" "Small",
      	}
   	"drink":{
      	"type":"7-Up",
      	"size":"small",
      	"ice":"yes",
   	} 
-```
+   
 ## Example response
 200 OK
 
