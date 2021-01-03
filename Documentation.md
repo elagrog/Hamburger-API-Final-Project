@@ -11,16 +11,16 @@ curl -H "Content-Type: application/json" -X POST -d'{
    "mealCat":
   	"main": "burgerMeal"
   	"burger": {
-     	"pattyType:" "veggie",
-     	"pattyQty:" 2,
-     	"pattyWeightG:" 300,
-     	"pattyCook":" medium",
+     	"pattyType": "veggie",
+     	"pattyQty": 2,
+     	"pattyWeight": 300,
+     	"pattyCook": "medium",
      	"bunType": "wholewheat",
      	"condiment1:" "ketchupandmustard",
-      "condiment:" "none",
-     	"topping1:" "Lettuce",
-        "topping2:"  "Tomato",
-        "topping3:"  "onion" 
+      "condiment": "none",
+     	"topping1": "Lettuce",
+        "topping2":  "Tomato",
+        "topping3":  "onion" 
         }
 {
 "sides1:" [
@@ -30,14 +30,14 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	},
     	"side2:": [
       {
-        	"type": coleslaw",
-        	"size": Small",
+        	"type": "coleslaw",
+        	"size": "Small",
      	},
   	"drink": [
    {
-     	"type":"7-Up",
-     	"size":"small",
-     	"ice":"yes",
+     	"type": "7-Up",
+     	"size": "small",
+     	"ice": "yes",
   	} 
    ```json
    
@@ -53,32 +53,32 @@ curl -H "Content-Type: application/json" -X POST -d'{
 ```json
 
 curl -H "Content-Type: application/json" -X POST -d'{
-   "mealType":"lunch",
+   "mealType": "lunch",
    "mealCat":{
-  	"main":"burgerMeal",
+  	"main": "burgerMeal",
   	"burger":{
-     	"pattyType":"veggie",
-     	"pattyQty":3,
-     	"pattyWeightG":300,
-     	"pattyCook":"medium",
-     	"bunType":"regular",
-     	"condiment":"ketchupandmustard",
-     	"topping":"lettuceandtomatoes",
+     	"pattyType": "veggie",
+     	"pattyQty": 3,
+     	"pattyWeightG" :300,
+     	"pattyCook" :"medium",
+     	"bunType": "regular",
+     	"condiment": "ketchupandmustard",
+     	"topping":" lettuceandtomatoes",
   	},
   	"sides":{
      	"side1":{
-        	"type":"potatochips",
-        	"size":"large",
+        	"type": "potatochips",
+        	"size": "large",
      	},
      	"side2":{
-        	"type":"coleslaw",
-        	"size":"small"
+        	"type": "coleslaw",
+        	"size": "small"
      	}
   	},
   	"drink":{
-     	"type":"7-Up",
-     	"size":"small",
-     	"ice":"yes",
+     	"type": "7-Up",
+     	"size": "small",
+     	"ice": "yes",
 ```
 ## Example response
 400 Bad request. 
