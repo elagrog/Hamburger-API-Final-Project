@@ -14,8 +14,13 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	"pattyWeightG":300,
      	"pattyCook":"medium",
      	"bunType":"wholewheat",
-     	"condiment":"ketchupandmustard"
-     	"topping":"lettuceandtomatoes 	},
+     	"condiment1":"ketchupandmustard",
+      "condiment2":"none",
+     	"topping1:"lettuce",
+      "topping2:"tomato",
+      "topping3:"onion",
+      }
+   
   	"sides":{
      	"side1":{
         	"type":"onion rings",
@@ -104,8 +109,8 @@ pattyQty	 | int	     |Number of patties per order. Acceptable values are 1 to 2.
 pattyWeight| 	int      |Specifies weight of burger. Choice is 300 grams or 400 grams.  | 300           |	Mandatory	         
 pattyCook  |	string	 |Specifies how long to cook the burger. Can be medium-rare, medium, or well done.|  MR	 | Mandatory	
 bunType	   |  string   |Specifies the type of bun. Can be regular or whole wheat. |  wholeWheat |	Mandatory	
-condiment	| string   |Specifies condiment. Choices are ketchup or mustard, ketchup and mustard, or none. |  ketchup	| Optional 
-topping	|string |	Specifies topping. Choices are lettuce, tomato, lettuce and tomato, or none. | lettuce	 | Optional 
+condiment_type	| string   |Specifies type of condiment. Choices are ketchup or mustard, ketchup and mustard, or none. |  ketchup	| Optional 
+topping_type |string | Specifies the type of topping. Choices are lettuce, tomato, onion, or none.	 | Optional 
 side1	| string |  Specifies side 1. Choice is French fries, onion rings, or none  | French fries | Mandatory
 size1 | 	string | Specifies size of side. Choice is large or small.   |  small   |  Mandatory 
 side2	|string | Specifies side 2. Choice is salad, coleslaw, or none.   |	salad  | 	Mandatory 
