@@ -1,11 +1,14 @@
-# Part 1: JSON for Burgermeal
-## Example POST request
-## Accept: application/json Content-Type: application/json
-## POST/orders   
-curl -H "Content-Type: application/json" -X POST -d'{
+# Part 1: JSON for Burgermeal  
 
-   ```json
+
+   ```
+   curl\ 
+   --header "Content-Type: application/json"
+   --header "Accept: application/json" \
+   --request POST \
    
+   
+   -X POST -d'{
   { 
    "mealType": "lunch",
    "mealCat":
@@ -17,10 +20,9 @@ curl -H "Content-Type: application/json" -X POST -d'{
      	"pattyCook": "medium",
      	"bunType": "wholewheat",
      	"condiment1:" "ketchupandmustard",
-      "condiment": "none",
-     	"topping1": "Lettuce",
-        "topping2":  "Tomato",
-        "topping3":  "onion" 
+     	"topping1": "lettuce",
+      "topping2":  "tomato",
+       "topping3":  "onion" 
         }
 {
 "sides1:" [
@@ -50,7 +52,7 @@ curl -H "Content-Type: application/json" -X POST -d'{
 ## Content-Type: application/json
 ## POST/orders
 
-```json
+```
 
 curl -H "Content-Type: application/json" -X POST -d'{
    "mealType": "lunch",
