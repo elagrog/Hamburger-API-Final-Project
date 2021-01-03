@@ -1,11 +1,12 @@
 # Part 1: JSON for Burgermeal
+
 ## Example POST request:
 Accept: application/json
 Content-Type: application/json
 POST/orders
 curl -H "Content-Type: application/json" -X POST -d'{
    "mealType":"lunch",
-   "mealCat":{
+   "mealCat":
   	"main":"burgerMeal", }
   	"burger":{
      	"pattyType:" "veggie",
