@@ -110,7 +110,7 @@ pattyWeight| 	int      |Specifies weight of burger. Choice is 300 grams or 400 g
 pattyCook  |	string	 |Specifies how long to cook the burger. Can be medium-rare, medium, or well done.|  MR	 | Mandatory	
 bunType	   |  string   |Specifies the type of bun. Can be regular or whole wheat. |  wholeWheat |	Mandatory	
 condiment_type	| string   |Specifies type of condiment. Choices are ketchup or mustard, ketchup and mustard, or none. |  ketchup	| Optional 
-topping_type |string | Specifies the type of topping. Choices are lettuce, tomato, onion, or none.	 | Optional 
+topping_type |string | Specifies the type of topping. Choices are lettuce, tomato, onion, or none. | None	 | Optional 
 side1	| string |  Specifies side 1. Choice is French fries, onion rings, or none  | French fries | Mandatory
 size1 | 	string | Specifies size of side. Choice is large or small.   |  small   |  Mandatory 
 side2	|string | Specifies side 2. Choice is salad, coleslaw, or none.   |	salad  | 	Mandatory 
